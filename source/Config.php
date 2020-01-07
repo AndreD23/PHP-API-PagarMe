@@ -15,4 +15,4 @@ define("DATA_LAYER_CONFIG", [
     ]
 ]);
 
-define("PAGARME_API_KEY", "ak_test)"); //TOKEN
+define("PAGARME_API_KEY", "ak_test_)"); //TOKEN
