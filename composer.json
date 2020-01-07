@@ -1,0 +1,24 @@
+{
+    "name": "andred23/php-api-rest",
+    "description": "Descomplicando API com PHP do Jeito Certo",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Dorneles",
+            "email": "andre.pereira23@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*",
+        "pagarme/pagarme-php": "4.0.*"
+    }
+}
